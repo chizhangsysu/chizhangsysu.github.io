@@ -3,7 +3,7 @@
   width: 100%;
   object-fit: cover;
   float: left; /* Default to left alignment */
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 /* Use a media query to target larger screens */
@@ -11,12 +11,15 @@
   .project-image {
     float: right;
     padding-right: 10px;
-    padding-bottom: 50px;
   }
 }
 
 .project-info {
   padding-left: 14px;
+}
+
+.project-info h3 {
+  margin-top: -5px;
 }
 
 /* Apply Roboto font to the entire body */
