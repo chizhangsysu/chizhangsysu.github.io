@@ -1,0 +1,22 @@
+/* Mobile-first: Align image to the left */
+.project-image {
+  width: 100%;
+  object-fit: cover;
+  float: left; /* Default to left alignment */
+}
+
+/* Use a media query to target larger screens */
+@media (min-width: 768px) { /* Assuming 768px is the breakpoint for md in your Bootstrap version */
+  .project-image {
+    float: right;
+  }
+}
+
+.project-info {
+  padding-left: 10px;
+}
+
+/* Apply Roboto font to the entire body */
+body {
+  font-family: 'Roboto', sans-serif;
+}
