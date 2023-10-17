@@ -40,7 +40,7 @@ async function processImages(srcDir, destDir) {
                 destination: destDir,
                 plugins: [
                     imageminJpegtran.default(),
-                    imageminPngquant.default({ quality: [0.8, 0.85] })
+                    imageminPngquant.default({ quality: [0.5, 0.6] })
                 ]
             });
         }
